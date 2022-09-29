@@ -1,0 +1,28 @@
+.card {
+    background-color: #C4C4C4;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #F8F8F7;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.violet {
+    background-color: #B4B7FF;
+    border-color: #ffffff99;
+    border-width: 4px;
+}
+
+.green {
+    background-color: #97EAB9;
+    border-color: #ffffff99;
+}
+
+.orange {
+    background-color: #FFD280;
+    border-color: #ffffff99;
+}

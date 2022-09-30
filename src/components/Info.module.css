@@ -1,0 +1,32 @@
+.title {
+    padding-top: 60px;
+}
+
+.title p{
+    color: #8C8C8C;
+    font-size: 20px;
+}
+
+.title h1{
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 58px;
+}
+
+.navigation {
+    padding-top: 20px; 
+}
+
+.navigation h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 138px);
+    grid-template-rows: 198px 36px;
+    grid-column-gap: 16px;
+    grid-row-gap: 10px;
+    margin-top: 20px;
+}

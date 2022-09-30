@@ -21,51 +21,97 @@ import cat15 from "../images/cat15.png";
 function GridCats() {
     return (
         <div className={styles.grid}>
-          <div className={styles.div1}>
             <img src={cat1} alt="" />
-          </div>
-          <div className={styles.div2}>
             <img src={cat2} alt="" />
-          </div>
-          <div className={styles.div3}>
             <img src={cat3} alt="" />
-          </div>
-          <div className={styles.div4}>
             <img src={cat4} alt="" />
-          </div>
-          <div className={styles.div5}>
             <img src={cat5} alt="" />
-          </div>
-          <div className={styles.div6}>
             <img src={cat6} alt="" />
-          </div>
-          <div className={styles.div7}>
             <img src={cat7} alt="" />
-          </div>
-          <div className={styles.div8}>
             <img src={cat8} alt="" />
-          </div>
-          <div className={styles.div9}>
             <img src={cat9} alt="" />
-          </div>
-          <div className={styles.div10}>
             <img src={cat10} alt="" />
-          </div>
-          <div className={styles.div11}>
             <img src={cat11} alt="" />
-          </div>
-          <div className={styles.div12}>
             <img src={cat12} alt="" />
-          </div>
-          <div className={styles.div13}>
             <img src={cat13} alt="" />
-          </div>
-          <div className={styles.div14}>
             <img src={cat14} alt="" />
-          </div>
-          <div className={styles.div15}>
             <img src={cat15} alt="" />
-          </div>
+            <img src={cat1} alt="" />
+            <img src={cat2} alt="" />
+            <img src={cat3} alt="" />
+            <img src={cat4} alt="" />
+            <img src={cat5} alt="" />
+            <img src={cat6} alt="" />
+            <img src={cat7} alt="" />
+            <img src={cat8} alt="" />
+            <img src={cat9} alt="" />
+            <img src={cat10} alt="" />
+            <img src={cat11} alt="" />
+            <img src={cat12} alt="" />
+            <img src={cat13} alt="" />
+            <img src={cat14} alt="" />
+            <img src={cat15} alt="" />
+            <img src={cat1} alt="" />
+            <img src={cat2} alt="" />
+            <img src={cat3} alt="" />
+            <img src={cat4} alt="" />
+            <img src={cat5} alt="" />
+            <img src={cat6} alt="" />
+            <img src={cat7} alt="" />
+            <img src={cat8} alt="" />
+            <img src={cat9} alt="" />
+            <img src={cat10} alt="" />
+            <img src={cat11} alt="" />
+            <img src={cat12} alt="" />
+            <img src={cat13} alt="" />
+            <img src={cat14} alt="" />
+            <img src={cat15} alt="" />
+            
+            <img src={cat1} alt="" />
+            <img src={cat2} alt="" />
+            <img src={cat3} alt="" />
+            <img src={cat4} alt="" />
+            <img src={cat5} alt="" />
+            <img src={cat6} alt="" />
+            <img src={cat7} alt="" />
+            <img src={cat8} alt="" />
+            <img src={cat9} alt="" />
+            <img src={cat10} alt="" />
+            <img src={cat11} alt="" />
+            <img src={cat12} alt="" />
+            <img src={cat13} alt="" />
+            <img src={cat14} alt="" />
+            <img src={cat15} alt="" />
+            <img src={cat1} alt="" />
+            <img src={cat2} alt="" />
+            <img src={cat3} alt="" />
+            <img src={cat4} alt="" />
+            <img src={cat5} alt="" />
+            <img src={cat6} alt="" />
+            <img src={cat7} alt="" />
+            <img src={cat8} alt="" />
+            <img src={cat9} alt="" />
+            <img src={cat10} alt="" />
+            <img src={cat11} alt="" />
+            <img src={cat12} alt="" />
+            <img src={cat13} alt="" />
+            <img src={cat14} alt="" />
+            <img src={cat15} alt="" />
+            <img src={cat1} alt="" />
+            <img src={cat2} alt="" />
+            <img src={cat3} alt="" />
+            <img src={cat4} alt="" />
+            <img src={cat5} alt="" />
+            <img src={cat6} alt="" />
+            <img src={cat7} alt="" />
+            <img src={cat8} alt="" />
+            <img src={cat9} alt="" />
+            <img src={cat10} alt="" />
+            <img src={cat11} alt="" />
+            <img src={cat12} alt="" />
+            <img src={cat13} alt="" />
+            <img src={cat14} alt="" />
+            <img src={cat15} alt="" />
         </div>
     );
 }

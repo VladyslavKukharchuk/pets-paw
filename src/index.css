@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+  }
+
 @font-face {
     font-family: 'Jost';
     src: local('Lato'), url(./fonts/Jost-Regular.ttf) format('opentype');

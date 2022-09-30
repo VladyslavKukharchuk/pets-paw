@@ -2,4 +2,10 @@
     background-color: #ffffff;
     border-radius: 10px;
     border: 0;
+
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #FF868E;
 }

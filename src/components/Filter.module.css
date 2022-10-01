@@ -1,0 +1,15 @@
+.filter {
+    display: grid;
+    grid-template-columns: 40px 150px 1fr 100px repeat(2, 40px);
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+    }
+
+    .box {
+        background-color: #F8F8F7;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }

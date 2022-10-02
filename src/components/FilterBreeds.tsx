@@ -6,9 +6,9 @@ import { ReactComponent as Pointer } from "../assets/pointer.svg";
 import { ReactComponent as Here } from "../assets/here.svg";
 import { ReactComponent as There } from "../assets/there.svg";
 
-function Filter() {
+function FilterBreeds() {
     return (
-        <div className={styles.filter}>
+        <div className={styles.filterBreeds}>
             <div className={styles.box} style={{ backgroundColor: '#FBE0DC' }}>
                 <Pointer />
             </div>
@@ -31,4 +31,4 @@ function Filter() {
     );
 }
 
-export default Filter;
+export default FilterBreeds;

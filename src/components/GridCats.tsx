@@ -66,7 +66,6 @@ function GridCats() {
             <img src={cat13} alt="" />
             <img src={cat14} alt="" />
             <img src={cat15} alt="" />
-            
             <img src={cat1} alt="" />
             <img src={cat2} alt="" />
             <img src={cat3} alt="" />

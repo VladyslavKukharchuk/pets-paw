@@ -2,13 +2,19 @@ import React from 'react';
 import GridCats from './GridCats';
 
 import styles from "./Dashboard.module.css"
-import Filter from './Filter';
+import FilterBreeds from './FilterBreeds';
+import FilterBreedsId from './FilterBreedsId';
+import FilterVoting from './FilterVoting';
+import RateTheCat from './RateTheCat';
 
 function Dashboard() {
     return (
         <div className={styles.dashboard}>
-            <Filter />
-            <GridCats />
+            {/* <FilterBreeds /> */}
+            {/* <FilterBreedsId /> */}
+            <FilterVoting />
+            {/* <GridCats /> */}
+            <RateTheCat />
         </div>
     );
 }

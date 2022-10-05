@@ -1,0 +1,84 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 140px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.grid div:nth-child(15n+1) {
+    grid-row: span 2;
+}
+
+.grid div:nth-child(15n+4) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.grid div:nth-child(15n+8) {
+    grid-row: span 2;
+}
+
+.grid div:nth-child(15n+9) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.grid div:nth-child(15n+11) {
+    grid-row: span 2;
+}
+
+.grid div:nth-child(15n+14) {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.grid img {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blockImg {
+    position: relative;
+}
+
+.blocKBg {
+    background-color: #FF868E99;
+
+    visibility:  hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.blockLike {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blockLike svg{
+    width: 20px;
+    height: 20px;
+
+}
+
+.blockImg:hover> .blocKBg {
+    visibility: visible;
+}

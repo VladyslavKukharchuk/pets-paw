@@ -1,0 +1,9 @@
+.boxButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxButton button:last-child{
+    margin-left: 40px;
+}

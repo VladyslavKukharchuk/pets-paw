@@ -1,6 +1,7 @@
 import React from 'react';
 
-import SearchSVG from "../assets/search.svg";
+// import SearchSVG from "../assets/search.svg";
+import { ReactComponent as SearchSVG } from "../assets/search.svg";
 
 import styles from "./Search.module.css"
 
@@ -14,9 +15,9 @@ function Search() {
                 placeholder="Search for breeds by name"
             //   ref={this.node}
             />
-            {/* <div> */}
-            <img src={SearchSVG} alt="" />
-            {/* </div> */}
+            <div className={styles.searchSvg}>
+                <SearchSVG />
+            </div>
         </div>
     );
 }

@@ -1,0 +1,13 @@
+.dashboardBreeds {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 40px 1fr 68px;
+    grid-row-gap: 20px;
+    
+    overflow: auto;
+    border-radius: 20px;
+    border: 20px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    background-color: #FFFFFF;
+}

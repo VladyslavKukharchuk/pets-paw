@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from "./Filter.module.css"
+import styles from "./FilterBreedsId.module.css"
 
 import { ReactComponent as Pointer } from "../assets/pointer.svg";
 

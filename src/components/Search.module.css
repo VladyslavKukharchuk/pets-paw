@@ -19,14 +19,30 @@
     margin-left: 20px;
 }
 
-.search img{
+.searchSvg {
+    flex-basis: 50px;
+
     width: 40px;
     height: 40px;
     background-color: #FBE0DC;
-    border-color: #FBE0DC;
-    border-style: solid;
-    border-width: 10px;
     border-radius: 10px;
     margin-right: 10px;
     margin-left: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchSvg svg{
+    width: 20px;
+    height: 20px;
+}
+
+.searchSvg:hover {
+    background-color: #FF868E;
+}
+
+.searchSvg:hover * {
+    fill: #FFFFFF;
 }

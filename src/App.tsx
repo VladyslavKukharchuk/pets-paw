@@ -2,10 +2,6 @@ import React from 'react';
 import styles from './App.module.css'
 import girlAndPet from "./images/girl-and-pet.png";
 
-
-
-
-import Dashboard from './components/Dashboard';
 import Info from './components/Info';
 import Menu from './components/Menu';
 

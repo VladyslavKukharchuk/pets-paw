@@ -1,0 +1,22 @@
+.filterBreedsId {
+    display: grid;
+    grid-template-columns: 40px 150px 90px 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+}
+
+.box {
+    background-color: #F8F8F7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box span {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 500;
+}

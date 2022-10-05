@@ -1,15 +1,17 @@
 import React from 'react';
-import Dashboard from './Dashboard';
 
 import styles from "./Menu.module.css"
+
 import Navigation from './Navigation';
-import Search from './Search';
+import DashboardBreeds from './Breeds/DashboardBreeds';
+import DashboardGallery from './Gallery/DashboardGallery';
 
 function Menu() {
     return (
         <div className={styles.menu}>
             <Navigation />
-            <Dashboard />
+            <DashboardGallery />
+            {/* <DashboardBreeds /> */}
         </div>
     );
 }

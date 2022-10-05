@@ -1,0 +1,33 @@
+.button{
+    background-color: #F8F8F7;
+    border-radius: 10px;
+    border-width: 0px;
+    width: 120px;
+    height: 40px;
+
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #8C8C8C;
+    font-weight: 500;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button :not(:last-child) {
+    margin-right: 15px;
+}
+
+.button:hover {
+    background-color: #FBE0DC;
+}
+
+.button:hover span {
+    color: #FF868E;
+}
+
+.button:hover * {
+    fill: #FF868E;
+}

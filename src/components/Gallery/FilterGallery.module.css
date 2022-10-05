@@ -1,0 +1,59 @@
+.filterGallery {
+    display: grid;
+    grid-template-columns: 40px 150px 1fr 140px;
+    grid-template-rows: 1fr;
+    grid-column-gap: 10px;
+}
+
+.box {
+    background-color: #F8F8F7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box span {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.upload {
+    background-color: #FBE0DC;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upload :not(:last-child) {
+    margin-right: 10px;
+}
+
+.upload svg {
+    width: 16px;
+    height: 16px;
+}
+
+.upload span{
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 2px;
+    color: #FF868E;
+    font-weight: 500;
+}
+
+.upload:hover {
+    background-color: #FF868E;
+}
+
+.upload:hover span {
+    color: #FFFFFF;
+}
+
+.upload:hover * {
+    fill: #FFFFFF;
+}

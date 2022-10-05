@@ -9,3 +9,11 @@
     letter-spacing: 2px;
     color: #FF868E;
 }
+
+.button:hover {
+    background-color: #FBE0DC;
+}
+
+.button:hover span {
+    color: #FF868E;
+}
